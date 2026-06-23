@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -c \"import stripe; print\\('stripe', stripe.__version__\\)\")",
+      "Bash(python -c \"import stripe; print\\('stripe', stripe._version.VERSION\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/lucide-react/package.json'\\); console.log\\(p.version\\)\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(!!l.Clapperboard, !!l.Compass, !!l.Bell\\)\")"
+    ]
+  }
+}
