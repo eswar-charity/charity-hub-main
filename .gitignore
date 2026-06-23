@@ -98,3 +98,4 @@ uploads/
 .Trashes
 ehthumbs.db
 desktop.ini
+.claude/settings.local.json

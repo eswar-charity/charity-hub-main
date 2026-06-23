@@ -5,7 +5,14 @@
       "Bash(python -c \"import stripe; print\\('stripe', stripe.__version__\\)\")",
       "Bash(python -c \"import stripe; print\\('stripe', stripe._version.VERSION\\)\")",
       "Bash(node -e \"const p = require\\('./node_modules/lucide-react/package.json'\\); console.log\\(p.version\\)\")",
-      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(!!l.Clapperboard, !!l.Compass, !!l.Bell\\)\")"
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(!!l.Clapperboard, !!l.Compass, !!l.Bell\\)\")",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(echo \".claude/settings.local.json\")",
+      "Bash(git rm *)",
+      "Bash(vercel --version)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'chore: add settings.local.json to gitignore, update allowed commands *)"
     ]
   }
 }
